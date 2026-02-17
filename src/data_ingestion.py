@@ -72,7 +72,7 @@ def main():
     try:
        
         test_size = 0.2
-        data_path = 'https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv'
+        data_path = 'https://raw.githubusercontent.com/ajaychaudhary8104/Datasets/refs/heads/main/spam.csv'
         df = load_data(data_url=data_path)
         final_df = preprocess_data(df)
         train_data, test_data = train_test_split(final_df, test_size=test_size, random_state=2)
